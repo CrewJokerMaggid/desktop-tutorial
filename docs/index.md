@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: CrewJoker System
@@ -10,36 +9,36 @@ Welcome to the documentation site for **CrewJoker** — a structured, transferab
 
 ---
 
-## 📂 Project Overview
+## 📁 Project Overview
 
-- [README.md](README.md): Project overview and mission
-- [structure.md](structure.md): Directory map and architecture
-- [LICENSE](LICENSE): License (CC BY-SA 4.0)
+- [README.md](../README.md): Project overview and mission  
+- [structure.md](../structure.md): Directory map and architecture  
+- [LICENSE](../LICENSE): License (CC BY-SA 4.0)
 
 ---
 
 ## 🚀 Quickstart
 
-1. Clone the repository
-2. Follow [instructions](META/instructions.md) to launch in a new environment
-3. Use [philosophy.md](PROMPTING/philosophy.md) to guide your logic
+1. Clone the repository  
+2. Follow [instructions](../META/instructions.md) to launch in a new environment  
+3. Use [philosophy.md](../PROMPTING/philosophy.md) to guide your logic
 
 ---
 
-## 🧭 Core Components
+## 🧩 Core Components
 
-- **PROMPTING/** — logic, design, and methodology
-- **META/** — system settings, startup
-- **CASES/** — deployments and examples *(coming soon)*
-- **THEORIES/** — scientific context *(coming soon)*
-
----
-
-## 🔗 Resources
-
-- GitHub Repository: [View on GitHub](https://github.com/crewjokermaggid/desktop-tutorial)
-- Theme: [jekyll-theme-minimal](https://github.com/pages-themes/minimal)
+- **PROMPTING/** — logic, design, and methodology  
+- **META/** — setup, instructions, startup  
+- **DATA/** — optional corpus, examples, finetuning targets  
 
 ---
 
-_Last updated: {{ site.time | date: '%Y-%m-%d' }}_
+## 🛠️ Contributions
+
+This project is open to contributions. Please fork, suggest, and collaborate through structured pull requests.
+
+---
+
+## 🌐 License
+
+Licensed under [CC BY-SA 4.0](../LICENSE)
