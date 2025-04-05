@@ -1,0 +1,7 @@
+
+theme: jekyll-theme-minimal
+title: CrewJoker
+description: Structured prompting system for self-evolving interaction
+logo: /favicon.png
+show_downloads: false
+google_analytics: false

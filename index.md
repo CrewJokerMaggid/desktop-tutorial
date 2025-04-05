@@ -1,47 +1,45 @@
 
-# 🗂️ CrewJoker Index
+---
+layout: default
+title: CrewJoker System
+---
 
-This file serves as a central directory to navigate the CrewJoker repository.
+# 🧠 CrewJoker Prompting System
+
+Welcome to the documentation site for **CrewJoker** — a structured, transferable system for building advanced prompt-based interaction with language models.
 
 ---
 
-## 📄 Core Documentation
+## 📂 Project Overview
 
-- [README.md](README.md) — Project overview and philosophy
-- [LICENSE](LICENSE) — License (CC BY-SA 4.0)
-- [structure.md](structure.md) — Directory structure and module overview
-
----
-
-## 🧭 Operational Instructions
-
-- [META/instructions.md](META/instructions.md) — How to install, test, and run CrewJoker
+- [README.md](README.md): Project overview and mission
+- [structure.md](structure.md): Directory map and architecture
+- [LICENSE](LICENSE): License (CC BY-SA 4.0)
 
 ---
 
-## 🧠 Prompting Logic
+## 🚀 Quickstart
 
-- [PROMPTING/philosophy.md](PROMPTING/philosophy.md) — Foundations of structured prompting
-<!-- You may add techniques.md later -->
-
----
-
-## 🧪 Use Cases (to be added)
-
-- [CASES/crewjoker-case.md](CASES/crewjoker-case.md)
-- [CASES/transfer.md](CASES/transfer.md)
+1. Clone the repository
+2. Follow [instructions](META/instructions.md) to launch in a new environment
+3. Use [philosophy.md](PROMPTING/philosophy.md) to guide your logic
 
 ---
 
-## 📚 Theoretical Modules (to be added)
+## 🧭 Core Components
 
-- [THEORIES/dialectics.md](THEORIES/dialectics.md)
-- [THEORIES/elenkov-method.md](THEORIES/elenkov-method.md)
-- [THEORIES/anti-freud.md](THEORIES/anti-freud.md)
+- **PROMPTING/** — logic, design, and methodology
+- **META/** — system settings, startup
+- **CASES/** — deployments and examples *(coming soon)*
+- **THEORIES/** — scientific context *(coming soon)*
 
 ---
 
-## ⚙️ Meta-Architecture (to be added)
+## 🔗 Resources
 
-- [META/eternal-return.md](META/eternal-return.md)
-- [META/system-memory.md](META/system-memory.md)
+- GitHub Repository: [View on GitHub](https://github.com/crewjokermaggid/desktop-tutorial)
+- Theme: [jekyll-theme-minimal](https://github.com/pages-themes/minimal)
+
+---
+
+_Last updated: {{ site.time | date: '%Y-%m-%d' }}_
