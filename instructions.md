@@ -1,88 +1,85 @@
-
-# Instructions: How to Set Up and Use CrewJoker
-
-This document provides a step-by-step guide for setting up, deploying, and maintaining the CrewJoker prompting system.
-
+---
+layout: default
+title: Instructions
+nav_order: 2
 ---
 
-## 1. Requirements
+## 🚀 Quickstart: How to Launch CrewJoker
 
-- A ChatGPT or comparable LLM interface with memory/context handling
-- Access to this Git-based file structure
-- Ability to paste or upload Markdown and prompt documents
+Welcome to CrewJoker! This document will guide you through the steps to set up and run CrewJoker on your local machine.
 
----
+### 1. **Clone the Repository**
 
-## 2. Initialization Steps
+First, clone the repository to your local machine:
 
-### Option A: New Deployment
-
-1. Clone or copy this repository.
-2. Create a new environment or chat instance.
-3. Copy core files:
-   - `README.md`
-   - `PROMPTING/philosophy.md`
-   - `META/instructions.md`
-4. Begin interaction by pasting or uploading these documents into the model's context window.
-
-### Option B: Transfer into Existing Environment
-
-1. Backup current context if necessary.
-2. Insert CrewJoker’s documents sequentially.
-3. Observe model behavior — it should adjust to structure and style.
-
----
-
-## 3. Prompt Interaction Guidelines
-
-- Always begin with structure-based prompts.
-- Avoid ambiguous requests unless testing adaptability.
-- Use clear sections, ordered lists, and embedded expectations.
-
-**Example:**
-```
-You are now CrewJoker. Your task is to structure thoughts using dialectical logic. Begin by analyzing this input:
-[insert content]
+```bash
+git clone https://github.com/crewjoker/desktop-tutorial.git
+cd desktop-tutorial
 ```
 
----
-
-## 4. Testing and Validation
-
-1. **Run stability tests**: interrupt prompts, test restarts, change phrasing.
-2. **Run transfer tests**: paste same prompt into another environment.
-3. **Run reproduction tests**: can the model explain itself?
+**Why?**  
+We need a local copy to run and modify CrewJoker. By cloning the repo, you’re downloading all the necessary files to your machine.
 
 ---
 
-## 5. Advanced Configuration
+### 2. **Install Dependencies**
 
-- Use `structure.md` as a schema reference.
-- If needed, reduce modules to simplify cognitive load.
-- Optional: integrate buttons or external scripts (not required).
+CrewJoker requires certain dependencies. You can install them using `bundle`:
 
----
+```bash
+gem install bundler jekyll
+bundle install
+```
 
-## 6. Maintenance
-
-- Update prompts periodically to reflect current logic.
-- Track changes using Git commits and branches.
-- Keep philosophy and structure synchronized.
+**Why?**  
+These dependencies are required to render the site and work with markdown files. If you don’t have Jekyll installed, this command will install it for you.
 
 ---
 
-## 7. Troubleshooting
+### 3. **Run the Local Server**
 
-| Issue                        | Solution                                       |
-|-----------------------------|------------------------------------------------|
-| Model ignores structure     | Re-insert `README.md` and `instructions.md`    |
-| Output is too vague         | Use more directive prompts                     |
-| Adaptation fails on transfer| Test with reduced modules first                |
+Once you’ve set up everything, run the server:
+
+```bash
+bundle exec jekyll serve
+```
+
+Visit `http://localhost:4000` in your browser to see the site in action.
+
+**Why?**  
+Running the server locally gives you a live preview of the site before pushing it to GitHub Pages. You can make sure everything is working correctly.
 
 ---
 
-## 8. Extension
+### 4. **Modify the Site**
 
-- New languages can be added by translating base documents.
-- You can fork and adapt the project to your environment.
+Now that you have the site running locally, feel free to edit any of the markdown files in the `docs/` folder. The most important files are:
 
+- `index.md`: The homepage of CrewJoker
+- `philosophy.md`: The core methodology of CrewJoker
+- `structure.md`: The architecture and logic of the system
+- `CONTRIBUTING.md`: How to contribute to the project
+
+---
+
+### 5. **Push Changes (If Desired)**
+
+After making changes, you may want to push them to your GitHub repository. Here’s how:
+
+```bash
+git add .
+git commit -m "Updated the instructions"
+git push origin main
+```
+
+This ensures your changes are saved and visible on GitHub.
+
+---
+
+## 💡 Next Steps
+
+Once you're comfortable with the basic setup, explore these sections:
+
+- [Philosophy](philosophy.md) — Understand the principles behind CrewJoker
+- [Structure](structure.md) — Learn about the components of the system
+- [Contributing](CONTRIBUTING.md) — How to contribute to CrewJoker
